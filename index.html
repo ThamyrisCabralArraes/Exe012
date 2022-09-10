@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video</title>
+    <title>Video com HTML5</title>
 </head>
 <body>
-    
+<h1>Inserindo videos</h1>
+<p>Esse video está no meu proprio servido</p>
+<video src="midia/meuvideo.mp4" width="500" controls> Video grande</video>
+<video width="500" controls poster="imagens/snow.png" autoplay loop>
+<source src="midia/meuvideo.mp4"type="video/mp4">
+<p>Seu servidor não tem compatibilidade com reprodução de videos.</p>
+<!-- Para colocar varios videos faz igual a foto (mesma coisa do menor para o maior) -->
+</video>
+
+<h1>Inserindo videos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GiKnJkiI2cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- para converter videos e deixar eles menores https://handbrake.fr/-->
+    <!-- Para baixar videos com direitos autorais https://www.pexels.com/pt-br/ -->
+    <!-- Tipos de arquivo: mp4, ogv (compatibilidade pequena), m4v, webm -->
 </body>
 </html>
